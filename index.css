@@ -5,6 +5,10 @@ html {
   font-size: 15px;
 }
 
+body {
+  background-color: lightpink;
+}
+
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
@@ -22,3 +26,26 @@ p {
   margin-right: auto;
   width: 20%;
 }
+
+.nabidka-container {
+    /*margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 16px;
+    border-radius: 0px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    width: 500px;*/
+    background: white;
+    display: center;
+  }
+
+  .nabidka-container > div {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+  }
+
