@@ -51,20 +51,17 @@ p {
 }
 
 .home1 {
-  /*flex-shrink: 1;*/
   max-width: 30%;
   height: auto;
   text-align: left;
 }
 
 .home2 {
-  /*flex-shrink: 1;*/
   max-width: 30%;
   height: auto;
 }
 
 .home3 {
-  /*flex-shrink: 1;*/
   max-width: 30%;
   height: auto;
   text-align: right;
@@ -109,7 +106,7 @@ p {
   display: flex;
   flex-direction: row;
   padding-top: 5%;
-  justify-content:flex-start
+  justify-content: space-around;
 }
 
 .losos-obrazek {
@@ -119,16 +116,25 @@ p {
   max-height: 300px;
 } 
 
-.losos-text {
-  align-items: left;
+.losos-text  {
+  padding-left: 200px;
+}
+
+.losos-nadpis h1 {
+  text-align: left;
+}
+
+.losos-popis p {
+  text-align: left;
 }
 
 .losos-menu {
   background-color: #FFEFEF;
+  text-align: left;
 }
 
-.footer {
-  font-size:10px;
+.footer p {
+  font-size:15px;
   left: 0;
   bottom: 0;
   width: 60%;
